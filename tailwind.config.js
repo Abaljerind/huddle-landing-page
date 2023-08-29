@@ -12,8 +12,8 @@ module.exports = {
         softMagenta: "hsl(300, 69%, 71%)",
       },
       backgroundImage: {
-        desktop: "./images/bg-desktop.svg",
-        mobile: "./images/bg-mobile.svg",
+        desktop: "url('/images/bg-desktop.svg')",
+        mobile: "url('/images/bg-mobile.svg')",
       },
     },
   },
