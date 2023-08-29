@@ -15,6 +15,9 @@ module.exports = {
         desktop: "url('/images/bg-desktop.svg')",
         mobile: "url('/images/bg-mobile.svg')",
       },
+      boxShadow: {
+        active: "3px 3px 4px 3px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [],
