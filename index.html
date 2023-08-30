@@ -36,12 +36,14 @@
     <!-- my css -->
     <link rel="stylesheet" href="/css/output.css" />
   </head>
-  <body class="bg-mobile bg-violet mx-auto p-8 bg-no-repeat bg-contain">
+  <body
+    class="bg-mobile bg-violet mx-auto p-8 bg-no-repeat bg-contain lg:bg-desktop lg:bg-cover"
+  >
     <main>
       <section class="top">
         <div class="logo relative mb-[86px]">
           <img
-            class="scale-50 absolute -top-[105px] -left-16"
+            class="scale-50 absolute -top-[105px] -left-16 lg:-top-[203px] lg:left-8 lg:scale-100"
             src="./images/logo.svg"
             alt="logo image"
           />
@@ -49,32 +51,36 @@
 
         <div class="illustration">
           <img
-            class="ml-1"
+            class="ml-1 lg:ml-16 lg:mt-[203px] lg:scale-110"
             src="./images/illustration-mockups.svg"
             alt="illustration mockups"
           />
         </div>
       </section>
 
-      <section class="middle text-center mt-14">
-        <h1 class="font-poppins text-white text-2xl font-semibold">
+      <section class="middle text-center mt-14 lg:relative">
+        <h1
+          class="font-poppins text-white text-2xl font-semibold lg:text-[42px] lg:leading-[55px] lg:w-2/5 lg:text-start lg:absolute lg:-top-[535px] lg:-right-4"
+        >
           Build The Community Your Fans Will Love
         </h1>
 
-        <p class="font-openSans text-white text-base mt-4 px-1">
+        <p
+          class="font-openSans text-white text-base mt-4 px-1 lg:text-lg lg:w-5/12 lg:px-7 lg:text-start lg:absolute lg:-top-[410px] lg:-right-3"
+        >
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
 
         <button
-          class="mt-6 bg-white text-violet font-openSans text-sm px-24 py-3 rounded-full shadow-lg hover:text-white hover:bg-softMagenta hover:bg-blend-lighten hover:shadow-active"
+          class="mt-6 bg-white text-violet font-openSans text-sm px-24 py-3 rounded-full shadow-lg hover:text-white hover:bg-softMagenta hover:bg-blend-lighten hover:shadow-active lg:absolute lg:bottom-60 lg:right-[350px] lg:px-16 lg:shadow-active 2xl:right-[390px]"
         >
           Register
         </button>
       </section>
 
-      <footer class="flex justify-center mt-16 gap-3">
+      <footer class="flex justify-center mt-16 gap-3 lg:mt-0 lg:justify-end">
         <!-- fb -->
         <span
           class="group w-10 h-10 border-white border border-opacity-40 rounded-full leading-10 inline-flex items-center justify-center hover:border-softMagenta hover:cursor-pointer"
